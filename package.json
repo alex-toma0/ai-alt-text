@@ -1,6 +1,6 @@
 {
     "name": "ai-alt-text",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Generate alt text for images using Replicate and BLIP",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -21,6 +21,10 @@
     ],
     "author": "Alexandru Toma",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alex-toma0/ai-alt-text"
+    },
     "dependencies": {
         "replicate": "^0.25.0"
     },
