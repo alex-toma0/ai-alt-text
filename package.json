@@ -1,0 +1,31 @@
+{
+    "name": "ai-alt-text",
+    "version": "1.0.0",
+    "description": "Generate alt text for images using Replicate and BLIP",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "alt-text",
+        "accessibility",
+        "image",
+        "blip",
+        "replicate",
+        "AI"
+    ],
+    "author": "Alexandru Toma",
+    "license": "MIT",
+    "dependencies": {
+        "replicate": "^0.25.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.0",
+        "typescript": "^5.2.2"
+    }
+}
